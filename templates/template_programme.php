@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name : formulaire ajout de table template
+ * Template Name : Programme template
  *
  *
  *
@@ -21,6 +21,7 @@ get_header();
  * Render display menu shortcode
  */
 //echo do_shortcode( '[brm_restaurant_menu]' );
-echo "This is a template from the plugin pour ajouter des tables ! ";
+the_content();
+echo "This is a template from the plugin ! It shows the programme ";
 // Get footer.
 get_footer();
